@@ -4,7 +4,7 @@ PWA simples para registro individual de uso de veículo no celular. Não usa log
 
 ## Funcionalidades
 
-- Configurações do motorista, unidade, gestor e veículo padrão
+- Definições do motorista, unidade, gestor e veículo padrão
 - Cadastro simples de veículos
 - Registro de saída e chegada
 - Validação de viagem aberta e quilometragem

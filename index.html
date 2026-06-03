@@ -8,7 +8,7 @@
     <title>Diário de Bordo</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="icons/icon-192.png" />
-    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
     <style>
 :root {
   --bg: #eef4f0;
@@ -630,17 +630,17 @@ dialog::backdrop {
 
       <section id="settingsView" class="view">
         <section class="panel">
-          <h2>Configurações do usuário</h2>
+          <h2>Definições do usuário</h2>
           <form id="settingsForm" class="form-grid">
             <label>Nome do motorista<input name="driverName" required /></label>
             <label>Unidade/escritório<input name="unit" required /></label>
             <label>Nome do gestor <span>opcional</span><input name="managerName" /></label>
-            <button class="primary full" type="submit">Salvar configurações</button>
+            <button class="primary full" type="submit">Salvar definições</button>
           </form>
         </section>
 
         <section class="panel">
-          <h2>Configurações do veículo</h2>
+          <h2>Definições do veículo</h2>
           <form id="vehicleForm" class="form-grid">
             <input type="hidden" name="id" />
             <label>Placa<input name="plate" maxlength="12" required /></label>
@@ -811,7 +811,7 @@ dialog::backdrop {
     <nav class="bottom-nav" aria-label="Menu principal">
       <button class="tab active" data-tab="homeView" type="button">Início</button>
       <button class="tab" data-tab="tripsView" type="button">Viagens</button>
-      <button class="tab" data-tab="settingsView" type="button">Configurações</button>
+      <button class="tab" data-tab="settingsView" type="button">Definições</button>
       <button class="tab" data-tab="exportView" type="button">Exportação</button>
       <button class="tab" data-tab="aboutView" type="button">Sobre</button>
     </nav>
@@ -1410,7 +1410,7 @@ function saveSettings(event) {
   };
   saveState();
   renderAll();
-  toast("Configurações salvas.");
+  toast("Definições salvas.");
 }
 
 function fillSettingsForm() {

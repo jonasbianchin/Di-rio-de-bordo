@@ -1,4 +1,4 @@
-const CACHE_NAME = "diario-de-bordo-v19";
+const CACHE_NAME = "diario-de-bordo-v20";
 const ASSETS = [
   "./",
   "./index.html",
@@ -9,7 +9,8 @@ const ASSETS = [
   "./icons/logo-small.png",
   "./icons/icon.svg",
   "./icons/icon-192.png",
-  "./icons/icon-512.png"
+  "./icons/icon-512.png",
+  "./icons/apple-touch-icon.png"
 ];
 
 self.addEventListener("install", (event) => {

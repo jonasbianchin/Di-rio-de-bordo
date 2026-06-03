@@ -567,7 +567,7 @@ function saveSettings(event) {
   };
   saveState();
   renderAll();
-  toast("Configurações salvas.");
+  toast("Definições salvas.");
 }
 
 function fillSettingsForm() {
