@@ -44,23 +44,6 @@ http://localhost:8080
 
 Observação: service workers funcionam em `localhost` ou em sites HTTPS. Abrir apenas com `file://` ou `content://`, como acontece ao abrir pelo WhatsApp, permite usar a tela, mas não testa corretamente instalação PWA/offline.
 
-## Como publicar no GitHub Pages
-
-1. Crie um repositório no GitHub.
-2. Envie estes arquivos para o repositório.
-3. No GitHub, entre em `Settings > Pages`.
-4. Em `Build and deployment`, selecione `Deploy from a branch`.
-5. Escolha a branch principal e a pasta raiz do projeto.
-6. Salve e aguarde o link público ser gerado.
-
-## Como publicar no Netlify
-
-1. Acesse o Netlify.
-2. Crie um novo site.
-3. Arraste a pasta do projeto para o deploy manual ou conecte o repositório GitHub.
-4. Não é necessário comando de build.
-5. Configure a pasta de publicação como a raiz do projeto.
-
 ## Como instalar no celular como PWA
 
 1. Publique a aplicação em um endereço HTTPS, como GitHub Pages ou Netlify.
